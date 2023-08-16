@@ -41,6 +41,7 @@ port = int(os.getenv('PORT', 8000))
 
 @app.route('/')
 def root():
+    print("print statement for mlops assignment 1 commit purpose")
     return app.send_static_file('index.html')
 
 # /* Endpoint to greet and add a new visitor to database.

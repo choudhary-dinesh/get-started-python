@@ -2,6 +2,8 @@
 Hello World app for running Python apps on Bluemix
 """
 
+#putting a comment for commit purpose for mlops assignment 1
+
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
 # To use a consistent encoding
